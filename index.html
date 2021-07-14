@@ -11,9 +11,15 @@
     <title>Responsive Football Website</title>
 </head>
 <body>
-    <!-- Header Section Start Here -->
+    <!-- Header Part Start Here -->
     <header>
+        <!-- navigation section start -->
         <nav>
+            <input type="checkbox" name="" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="menu"></i>
+                <i class="fas fa-times" id="exit"></i>
+            </label>
             <ul class="nav__items">
                 <li> <a href="#">home</a></li>
                 <li> <a href="#">clubs</a></li>
@@ -21,21 +27,171 @@
                 <li> <a href="#">upcomming matches</a></li>
                 <li> <a href="#">contact</a></li>
             </ul>
-            
+            <div class="login__button button">
+                    <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" target="_blank">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Login
+                    </a>
+            </div>
         </nav>
+            <!-- navigation section start -->
+
+
+            <!-- Banner section start -->
+        <section class="banner">
+            <div class="banner__head">
+                <h1 class="banner--title"> Conmebol <br> Copa America <br> 2021 </h1>
+                <div class="banner--button button">
+                    <a href="https://www.sonyliv.com/" target="_blank">
+                        Watch Live
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="banner__img">
+                <figure>
+                    <a href="https://copaamerica.com/en/" target="_blank"><img src="images/banner.png" alt="Banner Image"></a>
+                </figure>
+            </div>
+        </section>
+        <!-- Banner section ends -->
     </header>
-    <!-- Header Section ends Here -->
+    <!-- Header Part ends Here -->
 
-    <!-- Main Section Start Here -->
+
+    <!-- Main Part Start Here -->
     <main>
+        <!-- Player Section start here -->
+        <section class="players">
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Neymar" target="_blank"><img src="images/players/player-1.png" alt="Neymar Jr Image"></a></figure>
+                <h3 class="players--title"> Neymar Jr </h3>
+                <p class="players--about">
+                    Neymar da Silva Santos Júnior (born 5 February 1992), known as Neymar, is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team. He is widely regarded as one of the best players in the world.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank"><img src="images/players/player-2.png" alt="Lionel Messi"></a></figure>
+                <h3 class="players--title"> Lionel Messi </h3>
+                <p class="players--about">
+                    Lionel Andrés Messi[note 1] (Spanish pronunciation: [ljoˈnel anˈdɾes ˈmesi] (About this soundlisten);[A] also known as Leo Messi,[8] (born 24 June 1987) is an Argentine professional footballer who plays as a forward or an attacking midfielder and captains the Argentina national team.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank"><img src="images/players/player-3.png" alt="Cristiano Ronaldo"></a></figure>
+                <h3 class="players--title"> Cristiano Ronaldo </h3>
+                <p class="players--about">
+                    Cristiano Ronaldo dos Santos Aveiro GOIH ComM (Portuguese pronunciation: [kɾiʃˈtjɐnu ʁɔˈnaɫdu]; born 5 February 1985) is a Portuguese professional footballer who plays as a forward for Serie A club Juventus and captains the Portugal national team.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Paulo_Dybala" target="_blank"><img src="images/players/player-4.png" alt="Paulo Dybala"></a></figure>
+                <h3 class="players--title"> Paulo Dybala </h3>
+                <p class="players--about">
+                    Paulo Exequiel Dybala (born 15 November 1993) is an Argentine professional footballer who plays as a forward for Serie A club Juventus and the Argentina national team.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Mesut_%C3%96zil" target="_blank"><img src="images/players/player-5.png" alt="Mesut Ozil"></a></figure>
+                <h3 class="players--title"> Mesut Ozil  </h3>
+                <p class="players--about">
+                    Mesut Özil (German pronunciation: [ˈmeːzut ˈøːzil], Turkish: [meˈsut œˈzil]; born 15 October 1988) is a German professional footballer who plays as an attacking midfielder for Süper Lig club Fenerbahçe. Nicknamed "The Assist King".
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Mauro_Icardi" target="_blank"><img src="images/players/player-6.png" alt="Mauro Icardi"></a></figure>
+                <h3 class="players--title"> Mauro Icardi </h3>
+                <p class="players--about">
+                    Mauro Emanuel Icardi (Spanish pronunciation: [ˈmawɾo emaˈnwel iˈkaɾði]; born 19 February 1993) is an Argentine professional footballer who plays as a striker for Ligue 1 club Paris Saint-Germain and the Argentina national team.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/%C3%81ngel_Di_Mar%C3%ADa" target="_blank"><img src="images/players/player-7.png" alt="Ángel Di María"></a></figure>
+                <h3 class="players--title"> Ángel Di María </h3>
+                <p class="players--about">
+                    Ángel Fabián Di María (born 14 February 1988) is an Argentine professional footballer who plays for Ligue 1 club Paris Saint-Germain and the Argentina national team. He can play as either a winger or attacking midfielder.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9" target="_blank"><img src="images/players/player-8.png" alt=" Kylian Mbappé"></a></figure>
+                <h3 class="players--title"> Kylian Mbappé </h3>
+                <p class="players--about">
+                    Kylian Mbappé Lottin (born 20 December 1998) is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the France national team.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Mohamed_Salah" target="_blank"><img src="images/players/player-9.png" alt="Mohamed Salah"></a></figure>
+                <h3 class="players--title"> Mohamed Salah </h3>
+                <p class="players--about">
+                    Mohamed Salah Hamed Mahrous Ghaly (Arabic: محمد صلاح حامد محروس غالى‎, Egyptian Arabic pronunciation: [mæˈħam.mæd sˤɑˈlɑːħ ˈɣæːli]; born 15 June 1992) is an Egyptian professional footballer who plays as a forward for Premier League club Liverpool.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Harry_Kane" target="_blank"><img src="images/players/player-10.png" alt="Harry Kane"></a></figure>
+                <h3 class="players--title"> Harry Kane </h3>
+                <p class="players--about">
+                    Harry Edward Kane MBE (born 28 July 1993) is an English professional footballer who plays as a striker for Premier League club Tottenham Hotspur and captains the England national team. Regarded as one of the best strikers in the world, Kane is known for his prolific goalscoring record and ability to link play.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Kevin_De_Bruyne" target="_blank"><img src="images/players/player-11.png" alt="Kevin De Bruyne"></a></figure>
+                <h3 class="players--title"> Kevin De Bruyne </h3>
+                <p class="players--about">
+                    Kevin De Bruyne (born 28 June 1991) is a Belgian professional footballer who plays as a midfielder for Premier League club Manchester City, where he is vice-captain, and the Belgium national team. He is one of just three players (the others being Cristiano Ronaldo and Thierry Henry) to have won the PFA Players'.
+                </p>
+            </div>
+            <div class="players__item">
+                <figure> <a href="https://en.wikipedia.org/wiki/Philippe_Coutinho" target="_blank"><img src="images/players/player-12.png" alt="Philippe Coutinho"></a></figure>
+                <h3 class="players--title"> Philippe Coutinho </h3>
+                <p class="players--about">
+                    Philippe Coutinho Correia (born 12 June 1992) is a Brazilian professional footballer who plays as an attacking midfielder or winger for Spanish club Barcelona and the Brazil national team. He is known for his combination of vision, passing, dribbling and ability to conjure curving long-range strikes.
+                </p>
+            </div>
+        </section>
+        <!-- Player Section ends here -->
 
+        <!-- Highlight Section start here -->
+        <section class="highlights">
+            <div class="highlights__detail">
+                <h1 class="highlights--title">All Highlights Copa America 2021</h1>
+                <p class="highlights--info">
+                    Copa América or CONMEBOL Copa América, known until 1975 as the South American Football Championship, is the main men's football tournament.contested among national teams from South America. It is the oldest still-running international football competition, as well as the third most watched in the world.
+                </p>
+                <div class="highlights--button button">
+                    <a href="https://www.sonyliv.com/" target="_blank">
+                        Watch Live
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="highlights__img">
+                <figure>
+                    <a href="https://www.goal.com/en-in/live-scores" target="_blank"><img src="images/match.png" alt="Live Match"></a>
+                </figure>
+            </div>
+        </section>
+        <!-- Highlight Section ends here -->
     </main>
-    <!-- Header Section ends Here -->
+    <!-- Main Part ends Here -->
 
-    <!-- Footer Section Start Here -->
+
+    <!-- Footer part Start Here -->
     <footer>
-
+        <section>
+            <figure>
+                <img src="/images/Logo.png" alt="Logo">
+            </figure>
+            <div class="social-link">
+                <a href="https://www.instagram.com/"  target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/feed/"  target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/rakibemon"  target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/aronno.avro/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; 2022 Football</p>
+            </div>
+        </section>
     </footer>
-    <!-- Footer Section Start Here -->
+    <!-- Footer Part Start Here -->
 </body>
 </html>
