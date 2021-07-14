@@ -204,6 +204,7 @@ nav{
         ---------------------*/
 .ticket{
     background-image: url("../images/ft.jpg");
+    background-repeat: no-repeat;
     height: 80vh;
     background-position: center;
     background-size: cover;
