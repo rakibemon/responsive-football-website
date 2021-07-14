@@ -203,7 +203,7 @@ nav{
     Ticket Section Style
         ---------------------*/
 .ticket{
-    background-image: url(/images/ft.jpg);
+    background-image: url("../images/ft.jpg");
     height: 80vh;
     background-position: center;
     background-size: cover;
