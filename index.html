@@ -24,11 +24,11 @@
                 <i class="fas fa-times" id="exit"></i>
             </label>
             <ul class="nav__items">
-                <li> <a href="#">home</a></li>
-                <li> <a href="#">clubs</a></li>
-                <li> <a href="#">world Cup 2022</a></li>
-                <li> <a href="#">upcomming matches</a></li>
-                <li> <a href="#">contact</a></li>
+                <li> <a class="nav__links" href="#home">home</a></li>
+                <li> <a class="nav__links" href="#player">Players</a></li>
+                <li> <a href="#highlight">Highlight</a></li>
+                <li> <a href="#ticket">Ticket</a></li>
+                <li> <a href="#footer">Footer</a></li>
             </ul>
             <div class="login__button button">
                 <a href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com"
@@ -42,7 +42,7 @@
 
 
         <!-- Banner section start -->
-        <section class="banner">
+        <section class="banner" id="home">
             <div class="banner__head">
                 <h1 class="banner--title"> Conmebol <br> Copa America <br> 2021 </h1>
                 <div class="banner--button">
@@ -67,7 +67,7 @@
     <!-- Main Part Start Here -->
     <main>
         <!-- Player Section start here -->
-        <section class="players">
+        <section class="players" id="player">
             <div class="players__item">
                 <figure> <a href="https://en.wikipedia.org/wiki/Neymar" target="_blank"><img
                             src="images/players/player-1.png" alt="Neymar Jr Image"></a></figure>
@@ -193,7 +193,7 @@
         <!-- Player Section ends here -->
 
         <!-- Highlight Section start here -->
-        <section class="highlights">
+        <section class="highlights" id="highlight">
             <div class="highlights__detail">
                 <h1 class="highlights--title">All Highlights Copa America 2021</h1>
                 <p class="highlights--info">
@@ -220,13 +220,13 @@
 
 
         <!-- Ticket Section start here -->
-        <section class="ticket">
+        <section class="ticket" id="ticket">
             <div class="ticket__items">
                 <h1 class="ticket__title">See your team's 2021 schedule</h1>
                 <h4 class="ticket__subtitle">The biggest season ever is just a few months away! See your favorite team's
                     full lineup.</h4>
-                <div class="train__buttons">
-                    <div class=" ticket--button button">
+                <div class="ticket__buttons">
+                    <div class="ticket--button button">
                         <a href="https://www.espn.in/football/schedule" target="_blank">
                             SCHEDULES
                         </a>
@@ -242,10 +242,10 @@
         <!-- Ticket Section ends here -->
 
         <!-- subscribe section start here -->
-        <section>
+        <section id="footer">
             <h1 class="from--title">Subscribe To Our channel</h1>
             <form action="">
-                <div class="wrapper">
+                <div class="subscribe">
                     <div class="input">
                         <input type="email" name="email" id="email" placeholder="Enter Your E-mail" required>
                     </div>
